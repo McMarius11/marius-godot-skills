@@ -1,0 +1,49 @@
+# {{PROJEKTNAME}} — CLAUDE.md
+
+## Projektübersicht
+{{BESCHREIBUNG}}
+
+## Technische Eckdaten
+- Engine: Godot 4.x, Jolt Physics
+- Tick-Rate: {{TICKRATE}}
+- Einheiten: {{EINHEITEN}}
+- Main Scene: {{MAIN_SCENE}}
+- Plugins: Godot MCP Pro{{WEITERE_PLUGINS}}
+
+## Schlüsseldateien
+| Datei | Zweck |
+|-------|-------|
+| {{DATEIEN}} | |
+
+## Kollisionsschichten
+{{KOLLISIONSSCHICHTEN}}
+
+## Referenz-Stil
+{{REFERENZ_STIL}}
+
+## Arbeitsweise
+- WICHTIG: Bevor du irgendwas implementierst – Plan beschreiben und WARTEN
+- DU MUSST fragen wenn unklar – nie Annahmen treffen
+- Bei unbekannten Godot-APIs: erst Docs checken, nicht raten
+- Funktionierende Systeme NICHT anfassen wenn nur ein neues Feature gebaut wird
+- Keine Quick-Fixes die technische Schulden erzeugen – lieber kurz fragen
+- Nach jeder Änderung: kurz erwähnen was das brechen könnte
+
+## Code-Qualität
+- NIEMALS Magic Numbers – jeder feste Wert MUSS @export oder Konstante sein
+- GDScript: IMMER statische Typisierung verwenden
+- Signals statt direkter Node-Referenzen wo möglich
+- Defensive _ready() – fehlende Nodes dürfen nicht crashen
+- Keine Hacks ohne TODO-Kommentar + Begründung
+
+## Agenten-Workflow
+Nach jeder Implementierung: /review
+Am Ende jeder Session: /session-end
+{{ZUSAETZLICHE_AGENTS}}
+
+## Projektgedächtnis
+<!-- Session-Einträge: max 5-10 Zeilen, Datum YYYY-MM-DD -->
+<!-- Alte Einträge → docs/archiv.md -->
+
+## Zeilen-Budget
+Diese Datei darf 200 Zeilen nicht überschreiten. Details gehören in docs/.
