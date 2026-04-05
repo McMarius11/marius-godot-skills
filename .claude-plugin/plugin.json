@@ -1,0 +1,10 @@
+{
+  "name": "marius-godot-skills",
+  "version": "1.0.0",
+  "description": "Agent-System fuer Godot 4 Entwicklung mit Claude Code",
+  "author": "McMarius11",
+  "entry": "agents/",
+  "commands": "commands/",
+  "knowledge": "knowledge/",
+  "templates": "templates/"
+}

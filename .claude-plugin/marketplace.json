@@ -1,0 +1,11 @@
+{
+  "name": "marius-godot-skills",
+  "displayName": "Marius Godot Skills",
+  "description": "Lebendes Agent-System fuer Godot 4 Entwicklung mit Claude Code",
+  "version": "1.0.0",
+  "author": "McMarius11",
+  "license": "MIT",
+  "tags": ["godot", "gamedev", "agents", "gdscript"],
+  "repository": "https://github.com/mcmarius11/marius-godot-skills",
+  "categories": ["Game Development", "Agents"]
+}
