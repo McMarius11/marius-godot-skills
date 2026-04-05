@@ -1,9 +1,18 @@
 {
+  "name": "marius-godot-skills",
+  "owner": {
+    "name": "McMarius11"
+  },
   "plugins": [
     {
       "name": "marius-godot-skills",
-      "path": ".",
-      "description": "Selbstverbesserndes Agent-System für Godot 4 FPS-Entwicklung mit MCP Pro Integration"
+      "source": ".",
+      "description": "Selbstverbesserndes Agent-System für Godot 4 FPS-Entwicklung mit MCP Pro Integration",
+      "version": "1.0.0",
+      "author": {
+        "name": "McMarius11"
+      },
+      "category": "game-development"
     }
   ]
 }
